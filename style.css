@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Mohave:ital,wght@1,300&family=Open+Sans:wght@400;600&family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./project.jpeg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    color: white;
+    font-size: 3rem;
+    padding: 0 3rem;
+    font-weight: bold;
+}
+
+span{
+    color: white;
+    font-size: 1.5rem;
+}
+
+h1{
+    margin-top: 7rem;
+    font-size: 3.5rem;
+    color: white;
+}
